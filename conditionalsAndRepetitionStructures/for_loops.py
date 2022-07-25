@@ -1,86 +1,90 @@
 
 # A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
 
+from operator import truediv
+
+
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  print(x)
-print('--------------------------------------------------')  
-  
+    print(x)
+print('--------------------------------------------------')
+
 # Looping Through a String
 
 for x in "banana":
-  print(x)
+    print(x)
 print('--------------------------------------------------')
-    
+
 # The break Statement
 
-## Exit the loop when x is "banana":
+# Exit the loop when x is "banana":
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  print(x)
-  if x == "banana":
-    break
+    print(x)
+    if x == "banana":
+        break
 print('--------------------------------------------------')
-  
-## Exit the loop when x is "banana", but this time the break comes before the print:
+
+# Exit the loop when x is "banana", but this time the break comes before the print:
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  if x == "banana":
-    break
-  print(x)
+    if x == "banana":
+        break
+    print(x)
 print('--------------------------------------------------')
 
 
 # The continue Statement
 
-## With the continue statement we can stop the current iteration of the loop, and continue with the next:
+# With the continue statement we can stop the current iteration of the loop, and continue with the next:
 
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  if x == "banana":
-    continue
-  print(x)
-print('--------------------------------------------------')  
+    if x == "banana":
+        continue
+    print(x)
+print('--------------------------------------------------')
 
 # The range() Function
 
-## To loop through a set of code a specified number of times, we can use the range() function,
+# To loop through a set of code a specified number of times, we can use the range() function,
 
 for x in range(6):
-  print(x)
-### Note that range(6) is not the values of 0 to 6, but the values 0 to 5       
+    print(x)
+# Note that range(6) is not the values of 0 to 6, but the values 0 to 5
 
 print('--------------------------------------------------')
 
 for x in range(2, 6):
-  print(x)  
-  
- # Else in For Loop
-  
-  ## The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
-  
+    print(x)
+
+   # Else in For Loop
+
+    # The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+
 for x in range(6):
-  print(x)
+    print(x)
 else:
-  print("Finally finished!")
-  
- ## The else block will NOT be executed if the loop is stopped by a break statement
- 
+    print("Finally finished!")
+
+   # The else block will NOT be executed if the loop is stopped by a break statement
+
 for x in range(6):
-  if x == 3: break
-  print(x)
+    if x == 3:
+        break
+    print(x)
 else:
-  print("Finally finished!") 
-  
+    print("Finally finished!")
+
 # Nested Loops
 
 adj = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
 
 for x in adj:
-  for y in fruits:
-    print(x, y)  
-    
+    for y in fruits:
+        print(x, y)
+
 # The pass Statement
 for x in [0, 1, 2]:
-  pass    
+    pass

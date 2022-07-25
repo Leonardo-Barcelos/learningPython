@@ -24,7 +24,8 @@ else:
 print("-------------------------------------")
 
 # Short Hand If
-if x > y:print("%s is greater than %s" % (x, y))
+if x > y:
+    print("%s is greater than %s" % (x, y))
 
 # Short Hand If ... Else
 print("X") if x > y else print("Y")
