@@ -21,4 +21,7 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
 done
 
 ### Variables
+done
+
+### Conditionals and Repetition Structures
 In progress
