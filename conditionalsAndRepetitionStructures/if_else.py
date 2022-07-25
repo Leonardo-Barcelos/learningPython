@@ -3,7 +3,7 @@ Python relies on indentation (whitespace at the beginning of a line)
 to define scope in the code. 
 Other programming languages often use curly-brackets for this purpose.
 
-# to concat use %s
+# to concat use %s <-- IMPORTANT
 """
 x = 8000
 y = 7999
