@@ -12,5 +12,8 @@ Python is dynamically-typed and garbage-collected. It supports multiple programm
 ![GitHub last commit](https://img.shields.io/github/last-commit/Leonardo-Barcelos/LearningPython?style=flat-square)
 
 # Scope of Learning
-### Breaking the curse hello world <p style="font-size:15px;color:green">Done</p>
-### Variables <p style="font-size:15px;color:orange">In progress</p>
+### Breaking the curse hello world
+done
+
+### Variables
+In progress
