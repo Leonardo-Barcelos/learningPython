@@ -24,4 +24,8 @@ done
 done
 
 ### Conditionals and Repetition Structures
-In progress
+ #### If Else
+ done
+
+ #### For Loop
+ done
