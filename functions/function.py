@@ -41,3 +41,44 @@ def my_function(fname):
 my_function("Learning")
 my_function("Python")
 my_function("Sadness")
+
+print("-----------------------------------------------")
+
+# Number of Arguments
+
+"""
+By default, a function must be called with the correct number of arguments.
+  Meaning that if your function expects 2 arguments,you have to call the function with 2 arguments,
+  not more, and not less
+
+"""
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Lionel", "Messi")
+
+print("-----------------------------------------------")
+
+# Arbitrary Arguments, *args
+
+"""
+If you do not know how many arguments that will be passed into your function,
+  add a * before the parameter name in the function definition.
+"""
+def my_function(*kids):
+  print(kids)
+
+my_function("Seiya", "Shiryu", "Hyoga", "Shun", "Ikki")
+
+print("-----------------------------------------------")
+
+# Arbitrary Keyword Arguments, **kwargs
+"""
+If you do not know how many keyword arguments that will be passed into your function,
+  add two asterisk: ** before the parameter name in the function definition.
+"""
+def my_function(**kid):
+  print("His last name is " + kid['lname'])
+  print("His last name is " + kid.get('lname')) # eu acho assim melhor porém precisa revisar
+
+my_function(fname = "Tobias", lname = "Refsnes", tteste= 'teste 0', ttest2 = "teste 1")
