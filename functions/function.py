@@ -81,4 +81,4 @@ def my_function(**kid):
   print("His last name is " + kid['lname'])
   print("His last name is " + kid.get('lname')) # eu acho assim melhor porém precisa revisar
 
-my_function(fname = "Tobias", lname = "Refsnes", tteste= 'teste 0', ttest2 = "teste 1")
+my_function(fname = "Bruce", lname = "Wayne", tteste= 'teste 0', ttest2 = "teste 1")
