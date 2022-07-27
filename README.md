@@ -31,4 +31,7 @@ done
  done
 
  ### Function
- In progress...
+done
+
+### Lambda
+done
