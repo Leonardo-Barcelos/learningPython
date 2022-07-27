@@ -30,14 +30,12 @@ print("-------------------------------------------------------------------------
 
 """('EN-US')"""
 # The __init__() Function
-## The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
 ## To understand the meaning of classes we have to understand the built-in __init__() function.
 ## All classes have a function called __init__(), which is always executed when the class is being initiated.
 ## Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created  
 
 """('PT-BR')"""
 # A função __init__()
-## Os exemplos acima são classes e objetos em sua forma mais simples e não são realmente úteis em aplicações da vida real
 ## Para entender o significado das classes, temos que entender a função __init__() embutida.
 ## Todas as classes possuem uma função chamada __init__(), que sempre é executada quando a classe está sendo iniciada.
 ## Use a função __init__() para atribuir valores às propriedades do objeto ou outras operações que são necessárias quando o objeto está sendo criado:
