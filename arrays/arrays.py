@@ -103,7 +103,7 @@ print("---------------------------------------------------")
 # Removendo elementos da matriz
 ## Você pode usar o pop()método para remover um elemento da matriz.
 
-cars.pop(1) # using the position of element you wanna remove.
+cars.pop(1) # using the position of element you wanna remove. #
 print(cars)
 
 print("---------------------------------------------------")
