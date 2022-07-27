@@ -35,3 +35,6 @@ done
 
 ### Lambda
 done
+
+### Arrays / List
+done
