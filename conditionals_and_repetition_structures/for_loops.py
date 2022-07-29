@@ -1,11 +1,9 @@
 
-#IMPORTS
+# IMPORTS
 from operator import truediv
 
 """('EN-US')"""
 # A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string).
-
-
 
 
 fruits = ["apple", "banana", "cherry"]
@@ -72,8 +70,8 @@ for x in range(2, 6):
 
 print('----------------------------------------------------')
 
-    # Else in For Loop
-    # The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
+# Else in For Loop
+# The else keyword in a for loop specifies a block of code to be executed when the loop is finished:
 
 for x in range(6):
     print(x)
@@ -82,7 +80,7 @@ else:
 
 print('----------------------------------------------------')
 
-   # The else block will NOT be executed if the loop is stopped by a break statement
+# The else block will NOT be executed if the loop is stopped by a break statement
 
 for x in range(6):
     if x == 3:
@@ -106,5 +104,4 @@ print('----------------------------------------------------')
 
 # The pass Statement
 for x in [0, 1, 2]:
-    pass 
-
+    pass

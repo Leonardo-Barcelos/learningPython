@@ -22,34 +22,34 @@ Binary Types:	bytes, bytearray, memoryview                             Binary Ty
 None Type:	NoneType                                                     None Type:	NoneType
 
 """
-x = "John" # str
-y = 5 # int
-z = True # bool
-a = 2.2 # float
-b = ["html", "css", "java"] # list
-c = range(10) # range
-d = None # NoneType
-e =  1j # Complex
-f = ("apple", "banana", "cherry") # tuple
-    # ('EN_US')    
-    # Tuples are used to store multiple items in a single variable. 
-    # A tuple is a collection which is ordered and unchangeable.
+x = "John"  # str
+y = 5  # int
+z = True  # bool
+a = 2.2  # float
+b = ["html", "css", "java"]  # list
+c = range(10)  # range
+d = None  # NoneType
+e = 1j  # Complex
+f = ("apple", "banana", "cherry")  # tuple
+# ('EN_US')
+# Tuples are used to store multiple items in a single variable.
+# A tuple is a collection which is ordered and unchangeable.
 
-    # """(PT_BR)""" 
-    # Tuplas são usadas para armazenar vários itens em uma única variável.
-    # Uma tupla é uma coleção ordenada e imutável .
+# """(PT_BR)"""
+# Tuplas são usadas para armazenar vários itens em uma única variável.
+# Uma tupla é uma coleção ordenada e imutável .
 
 
-g = {"name" : "John", "age" : 36} # dict     
-h = {"apple", "banana", "cherry"}	# set	
-i = frozenset({"apple", "banana", "cherry"}) # frozenset
-j = b"Hello" # bytes
-k = bytearray(5) # bytearray
-l = memoryview(bytes(5)) # memoryview
+g = {"name": "John", "age": 36}  # dict
+h = {"apple", "banana", "cherry"}  # set
+i = frozenset({"apple", "banana", "cherry"})  # frozenset
+j = b"Hello"  # bytes
+k = bytearray(5)  # bytearray
+l = memoryview(bytes(5))  # memoryview
 
 
 # TEXT TYPE
-print(type(x)) 
+print(type(x))
 print("--------")
 
 # NUMERIC TYPE

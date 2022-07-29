@@ -15,35 +15,39 @@ Uma classe é como um construtor de objetos, ou um "projeto" para criar objetos.
 
 """('EN-US')"""
 # Create a Class
-## To create a class, use the keyword class
+# To create a class, use the keyword class
 
 """('PT-BR')"""
 # Criar uma classe
-## Para criar uma classe, use a palavra-chave class
+# Para criar uma classe, use a palavra-chave class
+
 
 class MyPersonClass:
-  name = "Clark Kent"
-  age = 32
-  profession = "Jornalist"
+    name = "Clark Kent"
+    age = 32
+    profession = "Jornalist"
 
-print("---------------------------------------------------------------------------") 
+
+print("---------------------------------------------------------------------------")
 
 """('EN-US')"""
 # The __init__() Function
-## To understand the meaning of classes we have to understand the built-in __init__() function.
-## All classes have a function called __init__(), which is always executed when the class is being initiated.
-## Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created  
+# To understand the meaning of classes we have to understand the built-in __init__() function.
+# All classes have a function called __init__(), which is always executed when the class is being initiated.
+# Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created
 
 """('PT-BR')"""
 # A função __init__()
-## Para entender o significado das classes, temos que entender a função __init__() embutida.
-## Todas as classes possuem uma função chamada __init__(), que sempre é executada quando a classe está sendo iniciada.
-## Use a função __init__() para atribuir valores às propriedades do objeto ou outras operações que são necessárias quando o objeto está sendo criado:
+# Para entender o significado das classes, temos que entender a função __init__() embutida.
+# Todas as classes possuem uma função chamada __init__(), que sempre é executada quando a classe está sendo iniciada.
+# Use a função __init__() para atribuir valores às propriedades do objeto ou outras operações que são necessárias quando o objeto está sendo criado:
+
 
 class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
 
 p1 = Person("John", 36)
 
@@ -56,4 +60,4 @@ print(p1.age)
 """('PT-BR')"""
 # A __init__()função é chamada automaticamente toda vez que a classe está sendo usada para criar um novo objeto.
 
-print("---------------------------------------------------------------------------") 
+print("---------------------------------------------------------------------------")

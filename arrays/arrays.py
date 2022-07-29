@@ -68,26 +68,26 @@ print("---------------------------------------------------")
 
 ('EN-US')
 # Looping Array Elements
-## You can use the for in loop to loop through all the elements of an array.
+# You can use the for in loop to loop through all the elements of an array.
 
 
 ('PT-BR')
 
 # Elementos de Matriz em Loop
-## Você pode usar o for inloop para percorrer todos os elementos de uma matriz.
+# Você pode usar o for inloop para percorrer todos os elementos de uma matriz.
 
 for element in cars:
-  print(element)
+    print(element)
 
 print("---------------------------------------------------")
 
 ('EN-US')
 # Adding Array Elements
-## You can use the append() method to add an element to an array.
+# You can use the append() method to add an element to an array.
 
 ('PT-BR')
 # Adicionando elementos de matriz
-## Você pode usar o append()método para adicionar um elemento a uma matriz.
+# Você pode usar o append()método para adicionar um elemento a uma matriz.
 
 
 cars.append("Honda")
@@ -97,13 +97,13 @@ print("---------------------------------------------------")
 
 ('EN-US')
 # Removing Array Elements
-## You can use the pop() method to remove an element from the array.
+# You can use the pop() method to remove an element from the array.
 
 ('PT-BR')
 # Removendo elementos da matriz
-## Você pode usar o pop()método para remover um elemento da matriz.
+# Você pode usar o pop()método para remover um elemento da matriz.
 
-cars.pop(1) # using the position of element you wanna remove. #
+cars.pop(1)  # using the position of element you wanna remove. #
 print(cars)
 
 print("---------------------------------------------------")
