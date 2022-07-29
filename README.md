@@ -38,3 +38,6 @@ done
 
 ### Arrays / List
 done
+
+### BILINGUAL TRANSLATION
+In progress...
